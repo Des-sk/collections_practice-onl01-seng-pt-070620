@@ -30,7 +30,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  start_with?[]
   while start_with?[0] == "a"
   start_with?.collect
   end
