@@ -29,13 +29,11 @@ def kesha_maker(array)
   end
 end
 
-def find_a(array)
-  while start_with?[0] == "a"
-  start_with?.collect
-  end
-  start_with?
-end
 
+     array.select do |word|
+      word[0] == "a"
+     end
+end
 def sum_array(array)
   sum = 0
   array.each do |num|
